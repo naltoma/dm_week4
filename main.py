@@ -7,3 +7,5 @@ print(Y)
 import regression
 model = regression.LinearRegression()
 print(model.x)
+model.fit(X, Y)
+print(model.theta)
